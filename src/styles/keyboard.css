@@ -1,0 +1,15 @@
+/* 添加RTL支持的样式 */
+.keyboard-container[dir="rtl"] {
+  direction: rtl;
+}
+
+.arabic-key {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+}
+
+/* 阿拉伯语特殊字符的样式调整 */
+.special-char {
+  font-size: 1.1em;
+  line-height: 1;
+} 
